@@ -12,7 +12,7 @@
         };
         listView.setAdapter(mAdapter);
         
-        # RecyclerViewAdapter用法
+# RecyclerViewAdapter用法
         
         RecyclerViewAdapter<String> mAdapter=new RecyclerViewAdapter<String>(R.layout.item_view,data) {
             TextView textView;
